@@ -1,6 +1,0 @@
-#!/bin/bash
-echo "Enter your commit message"
-read commit_var
-git add .
-git commit -m "${commit_var}"
-git push
